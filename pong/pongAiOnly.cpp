@@ -19,7 +19,8 @@ srand(time(0));
 for(int game = 2; game >= 1; game++)
 {
     if (game!= 2)
-    { //system("START dsd.exe");
+    {
+        system("START pong.exe");
     }
     closegraph();
     initgraph(&gd, &gm, "C:\\TC\\BGI");
